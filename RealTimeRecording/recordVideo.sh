@@ -1,8 +1,8 @@
 #!/bin/bash
 
-SERVER_IP='192.168.1.6'
-USERNAME='razer'
-PEERNAME='asus'
+SERVER_IP=''
+USERNAME=''
+PEERNAME=''
 
 FORMAT='mkv'
 FN_FORMAT='matroska'

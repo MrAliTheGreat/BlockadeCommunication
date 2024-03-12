@@ -9,6 +9,8 @@ Start the program by running `./startVideoMessaging.sh`
 - `playVideo.sh` has all the commands for playing the peer's video.
 - `Sitatuions.txt` mentiones all the rules for recording and playing videos on both sides (A is your PC, B is peer's PC).
 
+Fill in username, peername and server ip in each file based on your case.
+
 ## Requirements
 
 - You need a linux server with can be reach via SSH.

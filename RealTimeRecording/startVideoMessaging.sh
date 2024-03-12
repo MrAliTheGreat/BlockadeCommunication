@@ -1,8 +1,8 @@
 #!/bin/bash
 set -m
 
-# SERVER_IP='192.168.1.6'
-# USERNAME='razer'
+# SERVER_IP=''
+# USERNAME=''
 
 # FORMAT='mkv'
 
@@ -16,7 +16,7 @@ set -m
 
 
 trap "exit" INT TERM
-trap 'kill $(jobs -p); ssh razer@192.168.1.6 "rm /tmp/record-razer.txt /tmp/play-razer.txt /tmp/razer.mkv /tmp/razer.read";' EXIT
+trap 'kill $(jobs -p); ssh USERNAME@SERVER_IP "rm /tmp/record-USERNAME.txt /tmp/play-USERNAME.txt /tmp/USERNAME.FORMAT /tmp/USERNAME.read";' EXIT
 
 ./recordVideo.sh & ./playVideo.sh & fg %1 bg %2
 
