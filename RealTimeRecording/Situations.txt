@@ -1,0 +1,6 @@
+Situations:
+
+A record A ==> A don't play   B && B don't play   A && B played A once
+A play   B ==> A don't record A && B don't record B && A played B zero
+B record B ==> A don't play   B && B don't play   A && A played B once
+B play   A ==> A don't record A && B don't record B && B played A zero
