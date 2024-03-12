@@ -46,13 +46,3 @@ Start the program by running `./startVideoMessaging.sh`
 - The trap lines will only execute on script exit (Ctrl+Z). This is a good place for clearning everything and killing jobs on the background.
 
 - The `kill $(jobs -p)` command needs to be in single quotations. To use variables in the command you must alternate between single and double quotations and use them next to each other. Using double quotations when needing variable values and single quotations in other parts. An example of this can be seen in the script for texting.
-
-========================= STREAM =========================
-
--re keeps reading from file when being written to.
-
-Waits for the file to show up then the pipe will show ffmpeg -re output. Pipe will not have any errors before file showing up. ffplay will simply not play it.
-
-========================= TEXT =========================
-
-run "./showChat.sh" in one terminal to see the chat and "./text.sh" in another to write your message and send it. 
