@@ -4,8 +4,8 @@ Stream your audio or video to have a real-time call.
 
 ## Structure
 
-run `./audio.sh` to have a normal real-time call.
-run `./video.sh` to have a real-time video call.
+- Run `./audio.sh` to have a normal real-time call.
+- Run `./video.sh` to have a real-time video call.
 
 Fill username, peername and server ip in each file according to your case.
 
